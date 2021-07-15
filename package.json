@@ -1,0 +1,25 @@
+{
+  "name": "decorator-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@swc/core": "^1.2.64",
+    "reflect-metadata": "^0.1.13",
+    "rollup-plugin-swc": "^0.2.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5",
+    "vite": "^2.4.0"
+  },
+  "dependencies": {
+    "@vue-reactivity/scope": "^0.3.0",
+    "@vue-reactivity/watch": "^0.1.6",
+    "@vue/reactivity": "^3.1.4",
+    "ts-mixer": "^6.0.0"
+  }
+}
