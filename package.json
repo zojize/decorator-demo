@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "serve": "vite preview"
+    "build": "vite build",
+    "serve": "vite preview",
+    "start": "vite build && vite preview"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.2.1",
